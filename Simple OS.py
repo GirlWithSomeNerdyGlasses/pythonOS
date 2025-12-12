@@ -56,7 +56,7 @@ def main_windows():
     taskbar_frame = tk.Frame(main_windows, bg="lightgray", height=50)
     taskbar_frame.pack(side=tk.BOTTOM, fill=tk.X)
 
-    button1 = tk.Button(taskbar_frame, text="BlueMoon")
+    button1 = tk.Button(taskbar_frame, text="Window")
     button1.pack(side=tk.LEFT, padx=5, pady=5)
 
     button2 = tk.Button(taskbar_frame, text="App 2")
